@@ -61,3 +61,5 @@
 // console.log(nome);
 // console.log(idade1 + idade2);
 // console.log(frase.toLowerCase ("Japão", "Brasil"));
+
+//
