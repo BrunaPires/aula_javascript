@@ -163,26 +163,67 @@
 // alert(soma(5,10));
 
 // function com Replace
-function soma(n1,n2){
-    return n1 + n2;
-}
+// function soma(n1,n2){
+//     return n1 + n2;
+// }
 
-function setReplace(frase, nome, novo_nome){
-    return frase.replace(nome, novo_nome)
-}
+// function setReplace(frase, nome, novo_nome){
+//     return frase.replace(nome, novo_nome)
+// }
 
-alert(soma(5,10));
-alert(setReplace("Vai Japão", "Japão", "Brasil"));
+// alert(soma(5,10));
+// alert(setReplace("Vai Japão", "Japão", "Brasil"));
 
 
 // function 
-function soma(n1,n2){
-    return n1 + n2;
+// function soma(n1,n2){
+//     return n1 + n2;
+// }
+
+// function validaIdade(idade){
+//     var validar;
+//     if (idade >= 18){
+//         validar = true
+//     }else{
+//         validar = false
+//     }
+//     return validar;
+// }
+
+// var idade = prompt("Qual sua idade");
+// console.log(validaIdade(idade));
+
+
+function clicou(){
+    // alert("Obrigado por clicar");
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
 }
 
-function validaIdade(idade){
-    var validar (nome, novo_nome)
+
+//----------------------------------------------//
+// redirecionar para outra página
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
 }
 
-alert(soma(5,10));
-alert(setReplace("Vai Japão", "Japão", "Brasil"));
+// function redirecionar(){
+//     //window.open("https://www.google.com.br/");
+//     //window.location.href = "https://www.google.com.br/";
+// }
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
